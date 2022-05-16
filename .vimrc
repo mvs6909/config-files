@@ -48,9 +48,9 @@ set backspace=indent,eol,start
 
 let g:user_emmet_leader_key=','  "used for emet plugin. autocomplete by ,, 
 
-nmap wqq :wqa<cr>
+nmap zqq :wqa<cr>
 nmap q1 :q!<cr>
-nmap ww :wa<cr>
+nmap zz :wa<cr>
 nmap <S-w> <C-w>
 nmap :tf :Telescope find_files<cr>
 nmap :m :TagbarToggle<CR>
